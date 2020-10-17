@@ -1,9 +1,8 @@
-.content {
-    grid-area: c;
-    background-color: bisque;
+.ProfileItem {
+
 }
 
-.content img {
+.ProfileItem img {
     width: 100%;
     height: auto;
 }

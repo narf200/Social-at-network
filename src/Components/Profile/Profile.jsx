@@ -4,7 +4,7 @@ import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = ()=> {
   return (
-    <div className={s.content}>
+    <div className={s.ProfileItem}>
         Main Content
         <img
             src="https://images.techhive.com/images/article/2015/12/nekoatsume2-100633045-large.jpg"
