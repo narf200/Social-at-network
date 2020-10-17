@@ -1,3 +1,19 @@
-.DialogsItem {
-    color: black;
+.dialogsItem {
+    display: grid;
+    grid-template-columns: 2fr 10fr
+}
+
+.dialogs {
+    padding: 4px;
+}
+
+.dialogs .dialog {
+
+}
+
+.messages {
+    padding: 4px;
+}
+
+.messages .message {
 }
