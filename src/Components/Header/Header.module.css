@@ -1,8 +1,21 @@
-.header {
+.headerItem {
     grid-area: h;
     background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    grid-template-areas:
+            'img heading';
 }
-.header img {
+
+
+.headerItem img {
+    grid-area: img;
     width: 50px;
 
+}
+
+.heading {
+    grid-area: heading;
+    text-align: center;
+    color: cornflowerblue;
 }
