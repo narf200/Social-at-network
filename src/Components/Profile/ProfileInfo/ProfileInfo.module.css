@@ -1,0 +1,12 @@
+.ProfileItem {
+
+}
+
+.ProfileItem img {
+    width: 100%;
+    height: auto;
+}
+
+.descriptionBlock {
+    padding: 4px;
+}
