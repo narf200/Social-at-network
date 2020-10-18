@@ -3,7 +3,6 @@ import s from './Dialogs.module.css'
 import {NavLink} from "react-router-dom";
 
 const Dialog = (props) => {
-    console.log(props)
     let path = "/dialogs/" + props.id
     return (
         <div className={s.dialog}>
@@ -20,7 +19,7 @@ const Message = (props) => {
 
 const Dialogs = (props) => {
 
-    const dialogData = [
+    const dialogsData = [
         { id:'1', name:"Sandy"},
         { id:'2', name:"Motya"},
         { id:'3', name:"Fil"},
@@ -34,22 +33,19 @@ const Dialogs = (props) => {
         {id:'4', message:"Pet my fur"}
     ]
 
+    let dialogsElements = dialogsData.map(d=><Dialog name={d.name} id={d.id}/>)
+    let messagesElements = messagesData.map(m=><Message message={m.message}/>)
+
     return (
         <div className={s.dialogsItem}>
             <div className={s.dialogs}>
                 <div className={s.dialog}>
-                    <Dialog name={dialogData[0].name} id={dialogData[0].id}/>
-                    <Dialog name={dialogData[1].name} id={dialogData[1].id}/>
-                    <Dialog name={dialogData[2].name} id={dialogData[2].id}/>
-                    <Dialog name={dialogData[3].name} id={dialogData[3].id}/>
+                    {dialogsElements}
                 </div>
             </div>
             <div className={s.messages}>
-                <Message message={messagesData[0].message}/>
-                <Message message={messagesData[1].message}/>
-                <Message message={messagesData[2].message}/>
-                <Message message={messagesData[3].message}/>
-            </div>
+                {messagesElements}
+                 </div>
         </div>)
 }
 export default Dialogs
