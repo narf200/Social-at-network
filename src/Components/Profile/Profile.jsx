@@ -8,7 +8,7 @@ const Profile = (props)=> {
   return (
     <div className={s.ProfileItem}>
         <ProfileInfo />
-        <MyPosts postData={props.profilePage.postData}/>
+        <MyPosts postData={props.profilePage.postData} addPost={props.addPost}/>
     </div>)
 }
 export default Profile
