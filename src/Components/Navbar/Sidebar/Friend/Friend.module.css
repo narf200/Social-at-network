@@ -1,9 +1,11 @@
-.item {
+.FriendItem {
     color: black;
+    padding-top: 4px;
 }
 
-.item img {
+.FriendItem img {
     width: 45px;
     height: 45px;
     border-radius: 30px;
 }
+

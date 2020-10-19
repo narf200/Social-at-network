@@ -3,10 +3,15 @@ import s from './Friend.module.css'
 
 const Friend = (props)=> {
   return (
-      <div className={s.item}>
+      <div className={s.FriendItem}>
         <img src={props.avatar} alt="cat"/>
-        {props.name}
-        {props.status}
+        <div className={s.name}>
+            {props.name}
+        </div>
+        <div className={s.status}>
+            {props.status}
+        </div>
+
   </div>
   )
 }

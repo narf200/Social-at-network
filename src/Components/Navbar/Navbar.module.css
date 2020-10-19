@@ -12,3 +12,8 @@
 .item a.activeLink {
     color: gold;
 }
+
+.sidebar {
+    background-color: #e5bf95;
+    padding: 4px;
+}
