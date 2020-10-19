@@ -7,6 +7,7 @@ const Sidebar = (props)=> {
 
   return (
       <div>
+          <p>Online friends</p>
           {friendsList}
       </div>
   );

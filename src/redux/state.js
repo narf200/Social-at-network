@@ -24,10 +24,10 @@ let state = {
     },
     sideBar: {
         friendsList: [
-            { id:'1', name:"Sandy", avatar:"https://pbs.twimg.com/profile_images/980078612081795072/g_NUbXIw_400x400.jpg", status:'onlain'},
-            { id:'2', name:"Motya", avatar:"https://pbs.twimg.com/profile_images/1080545769034108928/CEzHCTpI_400x400.jpg", status:'onlain'},
-            { id:'3', name:"Fil", avatar:"https://pbs.twimg.com/profile_images/506215886500687873/09EWW0Sm_400x400.jpeg", status:'onlain'},
-            { id:'4', name:"Barsik", avatar:"https://pbs.twimg.com/profile_images/1057953961804738560/h6OFjm3E_400x400.jpg", status:'onlain'}
+            { id:'1', name:"Sandy", avatar:"https://pbs.twimg.com/profile_images/980078612081795072/g_NUbXIw_400x400.jpg", status:'online'},
+            { id:'2', name:"Motya", avatar:"https://pbs.twimg.com/profile_images/1080545769034108928/CEzHCTpI_400x400.jpg", status:'online'},
+            { id:'3', name:"Fil", avatar:"https://pbs.twimg.com/profile_images/506215886500687873/09EWW0Sm_400x400.jpeg", status:'online'},
+            { id:'4', name:"Barsik", avatar:"https://pbs.twimg.com/profile_images/1057953961804738560/h6OFjm3E_400x400.jpg", status:'online'}
         ]
     },
 }
