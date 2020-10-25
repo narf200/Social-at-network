@@ -24,3 +24,11 @@
 
 .messages .message {
 }
+
+.messageBackGround {
+    border: 2px solid rgba(47, 43, 43, 0.5);
+    border-radius: 4px;
+    background: #fc3; /* Цвет фона */
+    padding-left: 14px; /* Поля вокруг текста */
+}
+

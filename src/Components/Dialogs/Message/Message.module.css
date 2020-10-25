@@ -1,26 +1,20 @@
-.dialogsItem {
-    display: grid;
-    grid-template-columns: 2fr 10fr;
+
+.messageItems {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(47, 43, 43, 0.5);
+    border-radius: 4px;
+    background: #d2b262;
+    padding: 8px;
+    margin: 8px;
+    width: max-content;
+}
+
+
+.messageText {
 
 }
 
-.dialogs {
-    padding: 4px;
+.likesCount {
 
-}
-
-.dialogs .dialog {
-
-}
-
-.dialogs .dialog a {
-    color: black;
-    text-decoration: none;
-}
-
-.messages {
-    padding: 4px;
-}
-
-.messages .message {
 }
